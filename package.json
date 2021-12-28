@@ -1,0 +1,22 @@
+{
+  "name": "gcp_express_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliusoh/gcp_express_server.git"
+  },
+  "author": "Julius Oh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliusoh/gcp_express_server/issues"
+  },
+  "homepage": "https://github.com/juliusoh/gcp_express_server#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
