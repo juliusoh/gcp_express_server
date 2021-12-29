@@ -1,0 +1,199 @@
+{
+  "fips": "02",
+  "country": "US",
+  "state": "AK",
+  "county": null,
+  "level": "state",
+  "lat": null,
+  "locationId": "iso1:us#iso2:us-ak",
+  "long": null,
+  "population": 731545,
+  "metrics": {
+    "testPositivityRatio": 0.042,
+    "testPositivityRatioDetails": { "source": "other" },
+    "caseDensity": 21.4,
+    "contactTracerCapacityRatio": 0.3,
+    "infectionRate": 0.95,
+    "infectionRateCI90": 0.1,
+    "icuCapacityRatio": 0.65,
+    "vaccinationsInitiatedRatio": 0.647,
+    "vaccinationsCompletedRatio": 0.561
+  },
+  "riskLevels": {
+    "overall": 2,
+    "testPositivityRatio": 1,
+    "caseDensity": 2,
+    "contactTracerCapacityRatio": 1,
+    "infectionRate": 1,
+    "icuCapacityRatio": 0
+  },
+  "cdcTransmissionLevel": 3,
+  "actuals": {
+    "cases": 155145,
+    "deaths": 952,
+    "positiveTests": 154337,
+    "negativeTests": 2890720,
+    "contactTracers": 235,
+    "hospitalBeds": { "capacity": 1344, "currentUsageTotal": 874, "currentUsageCovid": 59 },
+    "icuBeds": { "capacity": 132, "currentUsageTotal": 86, "currentUsageCovid": 16 },
+    "newCases": 876,
+    "newDeaths": 0,
+    "vaccinesDistributed": 1319025,
+    "vaccinationsInitiated": 473636,
+    "vaccinationsCompleted": 410362,
+    "vaccinesAdministered": 1015258,
+    "vaccinesAdministeredDemographics": null,
+    "vaccinationsInitiatedDemographics": null
+  },
+  "annotations": {
+    "cases": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": []
+    },
+    "deaths": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": []
+    },
+    "positiveTests": {
+      "sources": [{ "type": "HHSTesting", "url": null, "name": null }],
+      "anomalies": []
+    },
+    "negativeTests": {
+      "sources": [{ "type": "HHSTesting", "url": null, "name": null }],
+      "anomalies": []
+    },
+    "contactTracers": {
+      "sources": [{ "type": "TestAndTrace", "url": null, "name": null }],
+      "anomalies": []
+    },
+    "hospitalBeds": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh",
+          "name": "Department of Health and Human Services"
+        }
+      ],
+      "anomalies": []
+    },
+    "icuBeds": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh",
+          "name": "Department of Health and Human Services"
+        }
+      ],
+      "anomalies": []
+    },
+    "newCases": null,
+    "newDeaths": {
+      "sources": [],
+      "anomalies": [{ "date": "2021-09-24", "type": "zscore_outlier", "original_observation": 44 }]
+    },
+    "vaccinesDistributed": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://covid.cdc.gov/covid-data-tracker/#vaccinations",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "vaccinationsInitiated": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://covid.cdc.gov/covid-data-tracker/#vaccinations",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "vaccinationsCompleted": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://covid.cdc.gov/covid-data-tracker/#vaccinations",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "vaccinesAdministered": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://covid.cdc.gov/covid-data-tracker/#vaccinations",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "testPositivityRatio": {
+      "sources": [{ "type": "HHSTesting", "url": null, "name": null }],
+      "anomalies": []
+    },
+    "caseDensity": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": []
+    },
+    "contactTracerCapacityRatio": {
+      "sources": [{ "type": "TestAndTrace", "url": null, "name": null }],
+      "anomalies": []
+    },
+    "infectionRate": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": []
+    },
+    "infectionRateCI90": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": []
+    },
+    "icuCapacityRatio": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh",
+          "name": "Department of Health and Human Services"
+        }
+      ],
+      "anomalies": []
+    },
+    "vaccinationsInitiatedRatio": null,
+    "vaccinationsCompletedRatio": null
+  },
+  "lastUpdatedDate": "2021-12-28",
+  "url": "https://covidactnow.org/us/alaska-ak"
+}
