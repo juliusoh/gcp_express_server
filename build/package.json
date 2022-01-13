@@ -1,0 +1,49 @@
+{
+  "name": "gcp_express_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node",
+    "watch": "nodemon server.ts",
+    "insert-data": "ts-node insert-data.ts",
+    "create-tables": "ts-node create-tables.ts",
+    "build": "rm -rf build && tsc && cp package*.json build && cp Dockerfile build && npm ci --prefix build --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliusoh/gcp_express_server.git"
+  },
+  "author": "Julius Oh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliusoh/gcp_express_server/issues"
+  },
+  "homepage": "https://github.com/juliusoh/gcp_express_server#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.10.0",
+    "axios": "^0.24.0",
+    "cron": "^1.8.2",
+    "csvtojson": "^2.0.10",
+    "date-fns": "^2.28.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-pino-logger": "^7.0.0",
+    "google-trends-api": "^4.9.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "papaparse": "^5.3.1",
+    "pino": "^7.6.2",
+    "request": "^2.88.2",
+    "sequelize": "^7.0.0-alpha.3"
+  }
+}
