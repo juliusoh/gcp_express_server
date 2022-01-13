@@ -3,3 +3,5 @@ node_modules/
 .env
 big-query/.temp
 credentials/
+build/
+node_modules
