@@ -5,7 +5,7 @@ dotenv.config();
 
 (async () => {
   await connectDB();
-  await dropTables(["currentStates"]);
+  await dropTables(["currentStates", "covidTrends"]);
   await syncTables();
   await disconnectDB();
 })();

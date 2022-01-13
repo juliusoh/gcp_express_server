@@ -1,20 +1,39 @@
 import express from "express";
 import dotenv from "dotenv";
 import logger from "./logger/logger";
-import { connectDB } from "./database/db";
+import { connectDB, CovidTestTrend } from "./database/db";
 import scheduleTasks from "./cron-tasks";
+import moment from 'moment'
 
 dotenv.config();
+
 const app = express();
 
 app.use(express.json());
 
-const PORT = process.env.PORT || 5000;
+connectDB();
 
-(async () => {
-  await connectDB();
+app.get("/", (req, res) => {
+  const healthResponse: { uptime: number; message: string; timestamp: string } =
+  {
+    uptime: process.uptime(),
+    message: "Status OK",
+    timestamp: moment().format("LLLL"),
+  };
+try {
+  res.status(200).send(healthResponse);
+} catch (error: any) {
+  healthResponse.message = error;
+  res.status(503).send(healthResponse);
+}
+});
 
-  app.listen(PORT, () => logger.info(`Server is running on PORT ${PORT}`));
+const $PORT = 8080;
 
-  scheduleTasks();
-})();
+app.listen($PORT, () => logger.info(`Server is running on PORT ${$PORT}`));
+// (async () =>{
+//   const existingRecord = await CovidTestTrend.findOne()
+//   console.log(existingRecord)
+// })()
+
+scheduleTasks();

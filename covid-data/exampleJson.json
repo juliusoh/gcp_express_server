@@ -1,0 +1,848 @@
+{
+  "default": {
+    "timelineData": [
+      {
+        "time": "1578182400",
+        "formattedTime": "Jan 5 – 11, 2020",
+        "formattedAxisTime": "Jan 5, 2020",
+        "value": [0],
+        "hasData": [false],
+        "formattedValue": ["0"]
+      },
+      {
+        "time": "1578787200",
+        "formattedTime": "Jan 12 – 18, 2020",
+        "formattedAxisTime": "Jan 12, 2020",
+        "value": [0],
+        "hasData": [false],
+        "formattedValue": ["0"]
+      },
+      {
+        "time": "1579392000",
+        "formattedTime": "Jan 19 – 25, 2020",
+        "formattedAxisTime": "Jan 19, 2020",
+        "value": [0],
+        "hasData": [false],
+        "formattedValue": ["0"]
+      },
+      {
+        "time": "1579996800",
+        "formattedTime": "Jan 26 – Feb 1, 2020",
+        "formattedAxisTime": "Jan 26, 2020",
+        "value": [0],
+        "hasData": [false],
+        "formattedValue": ["0"]
+      },
+      {
+        "time": "1580601600",
+        "formattedTime": "Feb 2 – 8, 2020",
+        "formattedAxisTime": "Feb 2, 2020",
+        "value": [0],
+        "hasData": [false],
+        "formattedValue": ["0"]
+      },
+      {
+        "time": "1581206400",
+        "formattedTime": "Feb 9 – 15, 2020",
+        "formattedAxisTime": "Feb 9, 2020",
+        "value": [1],
+        "hasData": [true],
+        "formattedValue": ["1"]
+      },
+      {
+        "time": "1581811200",
+        "formattedTime": "Feb 16 – 22, 2020",
+        "formattedAxisTime": "Feb 16, 2020",
+        "value": [2],
+        "hasData": [true],
+        "formattedValue": ["2"]
+      },
+      {
+        "time": "1582416000",
+        "formattedTime": "Feb 23 – 29, 2020",
+        "formattedAxisTime": "Feb 23, 2020",
+        "value": [5],
+        "hasData": [true],
+        "formattedValue": ["5"]
+      },
+      {
+        "time": "1583020800",
+        "formattedTime": "Mar 1 – 7, 2020",
+        "formattedAxisTime": "Mar 1, 2020",
+        "value": [9],
+        "hasData": [true],
+        "formattedValue": ["9"]
+      },
+      {
+        "time": "1583625600",
+        "formattedTime": "Mar 8 – 14, 2020",
+        "formattedAxisTime": "Mar 8, 2020",
+        "value": [30],
+        "hasData": [true],
+        "formattedValue": ["30"]
+      },
+      {
+        "time": "1584230400",
+        "formattedTime": "Mar 15 – 21, 2020",
+        "formattedAxisTime": "Mar 15, 2020",
+        "value": [64],
+        "hasData": [true],
+        "formattedValue": ["64"]
+      },
+      {
+        "time": "1584835200",
+        "formattedTime": "Mar 22 – 28, 2020",
+        "formattedAxisTime": "Mar 22, 2020",
+        "value": [77],
+        "hasData": [true],
+        "formattedValue": ["77"]
+      },
+      {
+        "time": "1585440000",
+        "formattedTime": "Mar 29 – Apr 4, 2020",
+        "formattedAxisTime": "Mar 29, 2020",
+        "value": [75],
+        "hasData": [true],
+        "formattedValue": ["75"]
+      },
+      {
+        "time": "1586044800",
+        "formattedTime": "Apr 5 – 11, 2020",
+        "formattedAxisTime": "Apr 5, 2020",
+        "value": [60],
+        "hasData": [true],
+        "formattedValue": ["60"]
+      },
+      {
+        "time": "1586649600",
+        "formattedTime": "Apr 12 – 18, 2020",
+        "formattedAxisTime": "Apr 12, 2020",
+        "value": [49],
+        "hasData": [true],
+        "formattedValue": ["49"]
+      },
+      {
+        "time": "1587254400",
+        "formattedTime": "Apr 19 – 25, 2020",
+        "formattedAxisTime": "Apr 19, 2020",
+        "value": [42],
+        "hasData": [true],
+        "formattedValue": ["42"]
+      },
+      {
+        "time": "1587859200",
+        "formattedTime": "Apr 26 – May 2, 2020",
+        "formattedAxisTime": "Apr 26, 2020",
+        "value": [40],
+        "hasData": [true],
+        "formattedValue": ["40"]
+      },
+      {
+        "time": "1588464000",
+        "formattedTime": "May 3 – 9, 2020",
+        "formattedAxisTime": "May 3, 2020",
+        "value": [39],
+        "hasData": [true],
+        "formattedValue": ["39"]
+      },
+      {
+        "time": "1589068800",
+        "formattedTime": "May 10 – 16, 2020",
+        "formattedAxisTime": "May 10, 2020",
+        "value": [36],
+        "hasData": [true],
+        "formattedValue": ["36"]
+      },
+      {
+        "time": "1589673600",
+        "formattedTime": "May 17 – 23, 2020",
+        "formattedAxisTime": "May 17, 2020",
+        "value": [33],
+        "hasData": [true],
+        "formattedValue": ["33"]
+      },
+      {
+        "time": "1590278400",
+        "formattedTime": "May 24 – 30, 2020",
+        "formattedAxisTime": "May 24, 2020",
+        "value": [28],
+        "hasData": [true],
+        "formattedValue": ["28"]
+      },
+      {
+        "time": "1590883200",
+        "formattedTime": "May 31 – Jun 6, 2020",
+        "formattedAxisTime": "May 31, 2020",
+        "value": [29],
+        "hasData": [true],
+        "formattedValue": ["29"]
+      },
+      {
+        "time": "1591488000",
+        "formattedTime": "Jun 7 – 13, 2020",
+        "formattedAxisTime": "Jun 7, 2020",
+        "value": [32],
+        "hasData": [true],
+        "formattedValue": ["32"]
+      },
+      {
+        "time": "1592092800",
+        "formattedTime": "Jun 14 – 20, 2020",
+        "formattedAxisTime": "Jun 14, 2020",
+        "value": [34],
+        "hasData": [true],
+        "formattedValue": ["34"]
+      },
+      {
+        "time": "1592697600",
+        "formattedTime": "Jun 21 – 27, 2020",
+        "formattedAxisTime": "Jun 21, 2020",
+        "value": [33],
+        "hasData": [true],
+        "formattedValue": ["33"]
+      },
+      {
+        "time": "1593302400",
+        "formattedTime": "Jun 28 – Jul 4, 2020",
+        "formattedAxisTime": "Jun 28, 2020",
+        "value": [30],
+        "hasData": [true],
+        "formattedValue": ["30"]
+      },
+      {
+        "time": "1593907200",
+        "formattedTime": "Jul 5 – 11, 2020",
+        "formattedAxisTime": "Jul 5, 2020",
+        "value": [30],
+        "hasData": [true],
+        "formattedValue": ["30"]
+      },
+      {
+        "time": "1594512000",
+        "formattedTime": "Jul 12 – 18, 2020",
+        "formattedAxisTime": "Jul 12, 2020",
+        "value": [31],
+        "hasData": [true],
+        "formattedValue": ["31"]
+      },
+      {
+        "time": "1595116800",
+        "formattedTime": "Jul 19 – 25, 2020",
+        "formattedAxisTime": "Jul 19, 2020",
+        "value": [30],
+        "hasData": [true],
+        "formattedValue": ["30"]
+      },
+      {
+        "time": "1595721600",
+        "formattedTime": "Jul 26 – Aug 1, 2020",
+        "formattedAxisTime": "Jul 26, 2020",
+        "value": [31],
+        "hasData": [true],
+        "formattedValue": ["31"]
+      },
+      {
+        "time": "1596326400",
+        "formattedTime": "Aug 2 – 8, 2020",
+        "formattedAxisTime": "Aug 2, 2020",
+        "value": [100],
+        "hasData": [true],
+        "formattedValue": ["100"]
+      },
+      {
+        "time": "1596931200",
+        "formattedTime": "Aug 9 – 15, 2020",
+        "formattedAxisTime": "Aug 9, 2020",
+        "value": [26],
+        "hasData": [true],
+        "formattedValue": ["26"]
+      },
+      {
+        "time": "1597536000",
+        "formattedTime": "Aug 16 – 22, 2020",
+        "formattedAxisTime": "Aug 16, 2020",
+        "value": [22],
+        "hasData": [true],
+        "formattedValue": ["22"]
+      },
+      {
+        "time": "1598140800",
+        "formattedTime": "Aug 23 – 29, 2020",
+        "formattedAxisTime": "Aug 23, 2020",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1598745600",
+        "formattedTime": "Aug 30 – Sep 5, 2020",
+        "formattedAxisTime": "Aug 30, 2020",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"]
+      },
+      {
+        "time": "1599350400",
+        "formattedTime": "Sep 6 – 12, 2020",
+        "formattedAxisTime": "Sep 6, 2020",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"]
+      },
+      {
+        "time": "1599955200",
+        "formattedTime": "Sep 13 – 19, 2020",
+        "formattedAxisTime": "Sep 13, 2020",
+        "value": [40],
+        "hasData": [true],
+        "formattedValue": ["40"]
+      },
+      {
+        "time": "1600560000",
+        "formattedTime": "Sep 20 – 26, 2020",
+        "formattedAxisTime": "Sep 20, 2020",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"]
+      },
+      {
+        "time": "1601164800",
+        "formattedTime": "Sep 27 – Oct 3, 2020",
+        "formattedAxisTime": "Sep 27, 2020",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1601769600",
+        "formattedTime": "Oct 4 – 10, 2020",
+        "formattedAxisTime": "Oct 4, 2020",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1602374400",
+        "formattedTime": "Oct 11 – 17, 2020",
+        "formattedAxisTime": "Oct 11, 2020",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1602979200",
+        "formattedTime": "Oct 18 – 24, 2020",
+        "formattedAxisTime": "Oct 18, 2020",
+        "value": [18],
+        "hasData": [true],
+        "formattedValue": ["18"]
+      },
+      {
+        "time": "1603584000",
+        "formattedTime": "Oct 25 – 31, 2020",
+        "formattedAxisTime": "Oct 25, 2020",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1604188800",
+        "formattedTime": "Nov 1 – 7, 2020",
+        "formattedAxisTime": "Nov 1, 2020",
+        "value": [17],
+        "hasData": [true],
+        "formattedValue": ["17"]
+      },
+      {
+        "time": "1604793600",
+        "formattedTime": "Nov 8 – 14, 2020",
+        "formattedAxisTime": "Nov 8, 2020",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1605398400",
+        "formattedTime": "Nov 15 – 21, 2020",
+        "formattedAxisTime": "Nov 15, 2020",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1606003200",
+        "formattedTime": "Nov 22 – 28, 2020",
+        "formattedAxisTime": "Nov 22, 2020",
+        "value": [17],
+        "hasData": [true],
+        "formattedValue": ["17"]
+      },
+      {
+        "time": "1606608000",
+        "formattedTime": "Nov 29 – Dec 5, 2020",
+        "formattedAxisTime": "Nov 29, 2020",
+        "value": [18],
+        "hasData": [true],
+        "formattedValue": ["18"]
+      },
+      {
+        "time": "1607212800",
+        "formattedTime": "Dec 6 – 12, 2020",
+        "formattedAxisTime": "Dec 6, 2020",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1607817600",
+        "formattedTime": "Dec 13 – 19, 2020",
+        "formattedAxisTime": "Dec 13, 2020",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1608422400",
+        "formattedTime": "Dec 20 – 26, 2020",
+        "formattedAxisTime": "Dec 20, 2020",
+        "value": [18],
+        "hasData": [true],
+        "formattedValue": ["18"]
+      },
+      {
+        "time": "1609027200",
+        "formattedTime": "Dec 27, 2020 – Jan 2, 2021",
+        "formattedAxisTime": "Dec 27, 2020",
+        "value": [18],
+        "hasData": [true],
+        "formattedValue": ["18"]
+      },
+      {
+        "time": "1609632000",
+        "formattedTime": "Jan 3 – 9, 2021",
+        "formattedAxisTime": "Jan 3, 2021",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1610236800",
+        "formattedTime": "Jan 10 – 16, 2021",
+        "formattedAxisTime": "Jan 10, 2021",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1610841600",
+        "formattedTime": "Jan 17 – 23, 2021",
+        "formattedAxisTime": "Jan 17, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1611446400",
+        "formattedTime": "Jan 24 – 30, 2021",
+        "formattedAxisTime": "Jan 24, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1612051200",
+        "formattedTime": "Jan 31 – Feb 6, 2021",
+        "formattedAxisTime": "Jan 31, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1612656000",
+        "formattedTime": "Feb 7 – 13, 2021",
+        "formattedAxisTime": "Feb 7, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1613260800",
+        "formattedTime": "Feb 14 – 20, 2021",
+        "formattedAxisTime": "Feb 14, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1613865600",
+        "formattedTime": "Feb 21 – 27, 2021",
+        "formattedAxisTime": "Feb 21, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1614470400",
+        "formattedTime": "Feb 28 – Mar 6, 2021",
+        "formattedAxisTime": "Feb 28, 2021",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"]
+      },
+      {
+        "time": "1615075200",
+        "formattedTime": "Mar 7 – 13, 2021",
+        "formattedAxisTime": "Mar 7, 2021",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"]
+      },
+      {
+        "time": "1615680000",
+        "formattedTime": "Mar 14 – 20, 2021",
+        "formattedAxisTime": "Mar 14, 2021",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"]
+      },
+      {
+        "time": "1616284800",
+        "formattedTime": "Mar 21 – 27, 2021",
+        "formattedAxisTime": "Mar 21, 2021",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"]
+      },
+      {
+        "time": "1616889600",
+        "formattedTime": "Mar 28 – Apr 3, 2021",
+        "formattedAxisTime": "Mar 28, 2021",
+        "value": [22],
+        "hasData": [true],
+        "formattedValue": ["22"]
+      },
+      {
+        "time": "1617494400",
+        "formattedTime": "Apr 4 – 10, 2021",
+        "formattedAxisTime": "Apr 4, 2021",
+        "value": [81],
+        "hasData": [true],
+        "formattedValue": ["81"]
+      },
+      {
+        "time": "1618099200",
+        "formattedTime": "Apr 11 – 17, 2021",
+        "formattedAxisTime": "Apr 11, 2021",
+        "value": [23],
+        "hasData": [true],
+        "formattedValue": ["23"]
+      },
+      {
+        "time": "1618704000",
+        "formattedTime": "Apr 18 – 24, 2021",
+        "formattedAxisTime": "Apr 18, 2021",
+        "value": [23],
+        "hasData": [true],
+        "formattedValue": ["23"]
+      },
+      {
+        "time": "1619308800",
+        "formattedTime": "Apr 25 – May 1, 2021",
+        "formattedAxisTime": "Apr 25, 2021",
+        "value": [24],
+        "hasData": [true],
+        "formattedValue": ["24"]
+      },
+      {
+        "time": "1619913600",
+        "formattedTime": "May 2 – 8, 2021",
+        "formattedAxisTime": "May 2, 2021",
+        "value": [22],
+        "hasData": [true],
+        "formattedValue": ["22"]
+      },
+      {
+        "time": "1620518400",
+        "formattedTime": "May 9 – 15, 2021",
+        "formattedAxisTime": "May 9, 2021",
+        "value": [41],
+        "hasData": [true],
+        "formattedValue": ["41"]
+      },
+      {
+        "time": "1621123200",
+        "formattedTime": "May 16 – 22, 2021",
+        "formattedAxisTime": "May 16, 2021",
+        "value": [22],
+        "hasData": [true],
+        "formattedValue": ["22"]
+      },
+      {
+        "time": "1621728000",
+        "formattedTime": "May 23 – 29, 2021",
+        "formattedAxisTime": "May 23, 2021",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1622332800",
+        "formattedTime": "May 30 – Jun 5, 2021",
+        "formattedAxisTime": "May 30, 2021",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1622937600",
+        "formattedTime": "Jun 6 – 12, 2021",
+        "formattedAxisTime": "Jun 6, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1623542400",
+        "formattedTime": "Jun 13 – 19, 2021",
+        "formattedAxisTime": "Jun 13, 2021",
+        "value": [17],
+        "hasData": [true],
+        "formattedValue": ["17"]
+      },
+      {
+        "time": "1624147200",
+        "formattedTime": "Jun 20 – 26, 2021",
+        "formattedAxisTime": "Jun 20, 2021",
+        "value": [24],
+        "hasData": [true],
+        "formattedValue": ["24"]
+      },
+      {
+        "time": "1624752000",
+        "formattedTime": "Jun 27 – Jul 3, 2021",
+        "formattedAxisTime": "Jun 27, 2021",
+        "value": [18],
+        "hasData": [true],
+        "formattedValue": ["18"]
+      },
+      {
+        "time": "1625356800",
+        "formattedTime": "Jul 4 – 10, 2021",
+        "formattedAxisTime": "Jul 4, 2021",
+        "value": [18],
+        "hasData": [true],
+        "formattedValue": ["18"]
+      },
+      {
+        "time": "1625961600",
+        "formattedTime": "Jul 11 – 17, 2021",
+        "formattedAxisTime": "Jul 11, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1626566400",
+        "formattedTime": "Jul 18 – 24, 2021",
+        "formattedAxisTime": "Jul 18, 2021",
+        "value": [18],
+        "hasData": [true],
+        "formattedValue": ["18"]
+      },
+      {
+        "time": "1627171200",
+        "formattedTime": "Jul 25 – 31, 2021",
+        "formattedAxisTime": "Jul 25, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1627776000",
+        "formattedTime": "Aug 1 – 7, 2021",
+        "formattedAxisTime": "Aug 1, 2021",
+        "value": [34],
+        "hasData": [true],
+        "formattedValue": ["34"]
+      },
+      {
+        "time": "1628380800",
+        "formattedTime": "Aug 8 – 14, 2021",
+        "formattedAxisTime": "Aug 8, 2021",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1628985600",
+        "formattedTime": "Aug 15 – 21, 2021",
+        "formattedAxisTime": "Aug 15, 2021",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"]
+      },
+      {
+        "time": "1629590400",
+        "formattedTime": "Aug 22 – 28, 2021",
+        "formattedAxisTime": "Aug 22, 2021",
+        "value": [19],
+        "hasData": [true],
+        "formattedValue": ["19"]
+      },
+      {
+        "time": "1630195200",
+        "formattedTime": "Aug 29 – Sep 4, 2021",
+        "formattedAxisTime": "Aug 29, 2021",
+        "value": [20],
+        "hasData": [true],
+        "formattedValue": ["20"]
+      },
+      {
+        "time": "1630800000",
+        "formattedTime": "Sep 5 – 11, 2021",
+        "formattedAxisTime": "Sep 5, 2021",
+        "value": [17],
+        "hasData": [true],
+        "formattedValue": ["17"]
+      },
+      {
+        "time": "1631404800",
+        "formattedTime": "Sep 12 – 18, 2021",
+        "formattedAxisTime": "Sep 12, 2021",
+        "value": [17],
+        "hasData": [true],
+        "formattedValue": ["17"]
+      },
+      {
+        "time": "1632009600",
+        "formattedTime": "Sep 19 – 25, 2021",
+        "formattedAxisTime": "Sep 19, 2021",
+        "value": [16],
+        "hasData": [true],
+        "formattedValue": ["16"]
+      },
+      {
+        "time": "1632614400",
+        "formattedTime": "Sep 26 – Oct 2, 2021",
+        "formattedAxisTime": "Sep 26, 2021",
+        "value": [15],
+        "hasData": [true],
+        "formattedValue": ["15"]
+      },
+      {
+        "time": "1633219200",
+        "formattedTime": "Oct 3 – 9, 2021",
+        "formattedAxisTime": "Oct 3, 2021",
+        "value": [13],
+        "hasData": [true],
+        "formattedValue": ["13"]
+      },
+      {
+        "time": "1633824000",
+        "formattedTime": "Oct 10 – 16, 2021",
+        "formattedAxisTime": "Oct 10, 2021",
+        "value": [13],
+        "hasData": [true],
+        "formattedValue": ["13"]
+      },
+      {
+        "time": "1634428800",
+        "formattedTime": "Oct 17 – 23, 2021",
+        "formattedAxisTime": "Oct 17, 2021",
+        "value": [13],
+        "hasData": [true],
+        "formattedValue": ["13"]
+      },
+      {
+        "time": "1635033600",
+        "formattedTime": "Oct 24 – 30, 2021",
+        "formattedAxisTime": "Oct 24, 2021",
+        "value": [12],
+        "hasData": [true],
+        "formattedValue": ["12"]
+      },
+      {
+        "time": "1635638400",
+        "formattedTime": "Oct 31 – Nov 6, 2021",
+        "formattedAxisTime": "Oct 31, 2021",
+        "value": [11],
+        "hasData": [true],
+        "formattedValue": ["11"]
+      },
+      {
+        "time": "1636243200",
+        "formattedTime": "Nov 7 – 13, 2021",
+        "formattedAxisTime": "Nov 7, 2021",
+        "value": [12],
+        "hasData": [true],
+        "formattedValue": ["12"]
+      },
+      {
+        "time": "1636848000",
+        "formattedTime": "Nov 14 – 20, 2021",
+        "formattedAxisTime": "Nov 14, 2021",
+        "value": [12],
+        "hasData": [true],
+        "formattedValue": ["12"]
+      },
+      {
+        "time": "1637452800",
+        "formattedTime": "Nov 21 – 27, 2021",
+        "formattedAxisTime": "Nov 21, 2021",
+        "value": [13],
+        "hasData": [true],
+        "formattedValue": ["13"]
+      },
+      {
+        "time": "1638057600",
+        "formattedTime": "Nov 28 – Dec 4, 2021",
+        "formattedAxisTime": "Nov 28, 2021",
+        "value": [15],
+        "hasData": [true],
+        "formattedValue": ["15"]
+      },
+      {
+        "time": "1638662400",
+        "formattedTime": "Dec 5 – 11, 2021",
+        "formattedAxisTime": "Dec 5, 2021",
+        "value": [13],
+        "hasData": [true],
+        "formattedValue": ["13"]
+      },
+      {
+        "time": "1639267200",
+        "formattedTime": "Dec 12 – 18, 2021",
+        "formattedAxisTime": "Dec 12, 2021",
+        "value": [26],
+        "hasData": [true],
+        "formattedValue": ["26"]
+      },
+      {
+        "time": "1639872000",
+        "formattedTime": "Dec 19 – 25, 2021",
+        "formattedAxisTime": "Dec 19, 2021",
+        "value": [14],
+        "hasData": [true],
+        "formattedValue": ["14"]
+      },
+      {
+        "time": "1640476800",
+        "formattedTime": "Dec 26, 2021 – Jan 1, 2022",
+        "formattedAxisTime": "Dec 26, 2021",
+        "value": [16],
+        "hasData": [true],
+        "formattedValue": ["16"]
+      },
+      {
+        "time": "1641081600",
+        "formattedTime": "Jan 2 – 8, 2022",
+        "formattedAxisTime": "Jan 2, 2022",
+        "value": [21],
+        "hasData": [true],
+        "formattedValue": ["21"],
+        "isPartial": true
+      }
+    ],
+    "averages": []
+  }
+}

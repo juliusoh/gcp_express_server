@@ -1,27 +1,25 @@
 import _ from "lodash";
 import moment from "moment";
-import { getCurrentStatesData } from "./getCovidData";
-import { CurrentState } from "../database/db";
+import { getUSData } from "./getCovidData";
+import { AmericaTimeSeries} from "../database/db";
 import logger from "../logger/logger";
 
-async function currentStatesParser() {
+async function usCovidParser() {
   //  table should be created once
-  const records = await getCurrentStatesData();
+  const records = await getUSData();
   await Promise.all(
     records.map(async (record) => {
       try {
         const data = _.pick(record, [
-          "fips",
+          "date",
           "country",
-          "state",
+          "fips",
           "level",
           "locationId",
-          "population",
+          "actuals",
           "metrics",
           "riskLevels",
           "cdcTransmissionLevel",
-          "actuals",
-          "lastUpdatedDate",
         ]);
 
         // data.testPostivityRatio = _.get(record, "metrics.testPositivityRatio");
@@ -40,13 +38,14 @@ async function currentStatesParser() {
         // data.actualdeaths = _.get(record, "actuals.deaths");
         const utc = moment().format();
 
-        const existingState = await CurrentState.findOne({ where: { fips: data.fips } });
-        if (existingState) {
-          await existingState.update(data);
-        } else {
-          await CurrentState.create(data);
-        }
-        logger.info(`Records added at : ${utc}`);
+        // const existingState = await AmericaTimeSeries.findOne({ where: { fips: data.fips } });
+        // if (existingState) {
+        //   await existingState.update(data);
+        // } else {
+          await AmericaTimeSeries.destroy({ where: {}})
+          await AmericaTimeSeries.create(data);
+        // }
+        logger.info(`Records added at : ${utc}` )
       } catch (error) {
         console.error(error);
       }
@@ -54,4 +53,5 @@ async function currentStatesParser() {
   );
 }
 
-export default currentStatesParser;
+
+export default usCovidParser;

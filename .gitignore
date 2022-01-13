@@ -1,3 +1,5 @@
 .dccache
 node_modules/
 .env
+big-query/.temp
+credentials/

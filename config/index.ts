@@ -4,8 +4,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const sql = {
-  database: process.env.SQL_DATABASE as string,
-  username: process.env.SQL_USER as string,
+  database: 'mydb' as string,
+  username: 'root' as string,
   password: process.env.SQL_PASSWORD,
   config: {
     host: '35.227.190.120',
