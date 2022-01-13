@@ -1,5 +1,5 @@
 # GCP Node Express Server
-Node.JS Express Server that is scheduled by a Cron Job to hit multiple Covid Data API endpoints and Google Trends API endpoints and pipeline that data to either Cloud SQL or BigQuery.
+Node.JS Express Server that is scheduled by a Cron Job Scheduler to hit multiple Covid Data API endpoints and Google Trends API endpoints and pipeline that data to either Cloud SQL or BigQuery.
 
 ## Technologies Used
 * Node.JS
