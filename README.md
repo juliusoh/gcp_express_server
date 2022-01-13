@@ -2,11 +2,11 @@
 Node.JS Express Server that is scheduled by a Cron Job to hit multiple API endpoints and push data to either Cloud SQL or BigQuery.
 
 ## Technologies Used
-*Node.JS
-*Node-Cron
-*Sequelize
-*MySQL 
-*Google-Cloud 
+* Node.JS
+* Node-Cron
+* Sequelize
+* MySQL 
+* Google-Cloud 
 
 ## Getting Started
 
